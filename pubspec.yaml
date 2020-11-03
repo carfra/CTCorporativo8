@@ -1,0 +1,53 @@
+name: ct_personal
+description: Creación de carnets
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path:  
+  http: 0.12.0+2
+  cupertino_icons: ^0.1.2
+  path_provider: ^1.6.10
+  qr_flutter: ^3.1.0
+  toast: ^0.1.5
+  simple_permissions: ^0.1.9
+  native_widgets: ^1.0.1
+  xml: ^3.5.0
+  flutter_dotenv: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/img/login_logo.png
+      - assets/img/login_logo1.png
+      - assets/img/FondoLogin.jpg
+      - assets/img/CTImage.png
+      - assets/img/CT.ico
+      - assets/img/logoct.jpg
+      - assets/img/exit.png      
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
