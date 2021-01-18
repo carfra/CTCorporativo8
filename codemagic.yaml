@@ -16,7 +16,6 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: 1.9.3
-      ruby: 2.6.6
     scripts:
       - |
         # set up debug keystore
